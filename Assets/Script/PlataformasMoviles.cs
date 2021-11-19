@@ -5,7 +5,8 @@ using UnityEngine;
 public class PlataformasMoviles : MonoBehaviour
 {
     [SerializeField] Transform[] positions;
-    [SerializeField] float velocidad;
+    [SerializeField] public float velocidad;
+    [SerializeField] public float velocidadI;
     bool ocilador;
 
     private void Start()

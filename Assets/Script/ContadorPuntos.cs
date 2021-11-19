@@ -2,50 +2,78 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
 
-public class ContadorPuntos : MonoBehaviour
+namespace BNG
 {
-    [SerializeField] int puntajeMaximo;
-    [SerializeField] ParticleSystem[] particles;
-    [SerializeField] Musica parlantes;
-    [SerializeField] Text victoriaText;
-    int puntaje;
-
-    // Start is called before the first frame update
-    void Start()
+    public class ContadorPuntos : MonoBehaviour
     {
-        puntaje = 0;
-        victoriaText.text = " ";
-    }
+        [SerializeField] int puntajeMaximo;
+        [SerializeField] ParticleSystem[] particles;
+        [SerializeField] Musica parlantes;
+        [SerializeField] Text victoriaText;
+        [SerializeField] PlataformasMoviles plat;
+        public int puntaje;
+        public Tiempo t;
+        public Grabbable g;
 
-    private void Update()
-    {
-        if(puntaje == puntajeMaximo)
+
+        // Start is called before the first frame update
+        void Start()
         {
-            Victoria();
+            puntaje = 0;
+            //victoriaText.text = " ";
         }
+
+        private void Update()
+        {
+            //Debug.Log(puntaje);
+            /*if(puntaje == puntajeMaximo)
+            {
+                Victoria();
+            }*/
+            if (t.tiempo <= 0f)
+            {
+                plat.velocidad = 0f;
+                g.enabled = false;
+                Victoria();
+            }
+            else
+            {
+                plat.velocidad = plat.velocidadI;
+                g.enabled = true;
+            }
 
 #if UNITY_EDITOR
-        if (Input.GetButtonDown("Jump"))
-        {
-            Victoria();
-        }
+            if (Input.GetButtonDown("Jump"))
+            {
+                Victoria();
+            }
 #endif
-    }
-
-    void Victoria()
-    {
-        for (int i = 0; i < particles.Length; i++)
-        {
-            particles[i].Play();
         }
 
-        parlantes.MusicaVictoria();
-        victoriaText.text = "¡Has Ganado!";
+        void Victoria()
+        {
+
+            for (int i = 0; i < particles.Length; i++)
+            {
+                particles[i].Play();
+            }
+
+            //parlantes.MusicaVictoria();
+            //victoriaText.text = "¡Has Ganado!";
+        }
+
+        public void SumarPunto()
+        {
+            puntaje += 20;
+        }
+        public void RestarPunto()
+        {
+            puntaje -= 10;
+            t.tiempo -= 5f;
+        }
     }
 
-    public void SumarPunto()
-    {
-        puntaje++;
-    }
 }
+

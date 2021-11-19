@@ -11,6 +11,7 @@ namespace BNG {
     /// </summary>
     public class RaycastWeapon : GrabbableEvents {
 
+        public Tiempo t;
         [Header("General : ")]
         /// <summary>
         /// How far we can shoot in meters
@@ -316,6 +317,7 @@ namespace BNG {
         }
 
         public virtual void CheckReloadInput() {
+
             if(ReloadMethod == ReloadType.InternalAmmo) {
                 // Check for Reload input(s)
                 for (int x = 0; x < ReloadInput.Count; x++) {

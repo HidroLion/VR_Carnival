@@ -2,21 +2,24 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ExplosionBloques : MonoBehaviour
+namespace BNG
 {
-    [SerializeField] ContadorPuntos contador;
-
-    private void OnTriggerEnter(Collider other)
+    public class ExplosionBloques : MonoBehaviour
     {
-        if (other.CompareTag("Bala"))
+        [SerializeField] ContadorPuntos contador;
+
+        private void OnTriggerEnter(Collider other)
         {
-            contador.SumarPunto();
-            Explotar();
+            if (other.CompareTag("Bala"))
+            {
+                contador.SumarPunto();
+                Explotar();
+            }
         }
-    }
 
-    void Explotar()
-    {
+        void Explotar()
+        {
 
+        }
     }
 }

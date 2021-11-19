@@ -14,6 +14,11 @@ namespace BNG {
 
         public float Health = 100;
         private float _startingHealth;
+        public int r;
+        public MeshRenderer mat;
+        public bool rojo;
+        public float time;
+        public Tiempo t;
 
         [Tooltip("If specified, this GameObject will be instantiated at this transform's position on death.")]
         public GameObject SpawnOnDeath;
@@ -32,6 +37,8 @@ namespace BNG {
         /// </summary>
         [Tooltip("Destroy this object on Death? False if need to respawn.")]
         public bool DestroyOnDeath = true;
+
+        public ContadorPuntos puntos;
 
         [Tooltip("If this object is a Grabbable it can be dropped on Death")]
         public bool DropOnDeath = true;
@@ -84,12 +91,40 @@ namespace BNG {
 
         private void Start() {
             _startingHealth = Health;
+            mat.material.color = Color.green;
             rigid = GetComponent<Rigidbody>();
             if (rigid) {
                 initialWasKinematic = rigid.isKinematic;
             }
         }
-
+        private void Update()
+        {
+            if(rojo)
+            {
+                time -= Time.deltaTime;
+                if(time<=0f)
+                {
+                    DestroyThis();
+                    r = (int)Random.Range(1, 100);
+                    time = 3f;
+                    rojo = false;
+                    
+                }
+            }
+            if (t.tiempo <= 0f)
+            {
+                Health = 10000;
+                mat.material.color = Color.green;
+                rojo = false;
+                RespawnTime = 0.1f;
+            }
+            else
+            {
+                Health = _startingHealth;
+                RespawnTime = 3f;
+            }
+                
+        }
         public virtual void DealDamage(float damageAmount) {
             DealDamage(damageAmount, transform.position);
         }
@@ -119,11 +154,26 @@ namespace BNG {
 
             if (Health <= 0) {
                 DestroyThis();
+                if(t.tiempo>=0f)
+                {
+                    if (r <= 40 || r >= 80)
+                    {
+                        puntos.SumarPunto();
+                    }
+                    else
+                    {
+                        puntos.RestarPunto();
+                        time = 3f;
+                        rojo = false;
+                    }
+                    r = (int)Random.Range(1, 100);
+                }
+                
             }
         }
 
         public virtual void DestroyThis() {
-            Health = 0;
+            //Health = 0;
             destroyed = true;
 
             // Activate
@@ -160,6 +210,7 @@ namespace BNG {
 
             if (DestroyOnDeath) {
                 Destroy(this.gameObject, DestroyDelay);
+                
             }
             else if (Respawn) {
                 StartCoroutine(RespawnRoutine(RespawnTime));
@@ -212,6 +263,21 @@ namespace BNG {
 
             // Call events
             if (onRespawn != null) {
+                //Debug.Log(r);
+                if(t.tiempo>0f)
+                {
+                    if (r <= 40 || r >= 80)
+                    {
+                        mat.material.color = Color.green;
+                        rojo = false;
+                    }
+                    else
+                    {
+                        mat.material.color = Color.red;
+                        rojo = true;
+                    }
+                }
+               
                 onRespawn.Invoke();
             }
         }

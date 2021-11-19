@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <LangVersion>7.3</LangVersion>
@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\</OutputPath>
-    <DefineConstants>UNITY_2020_3_14;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2020_3_14;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -53,153 +53,149 @@
     <UnityVersion>2020.3.14f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Script\ContadorPuntos.cs" />
-    <Compile Include="Assets\Script\PlataformasMoviles.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\Zipline.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\BNGPlayerController.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableChild.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableBezierLine.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPose.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Weapons\BulletInsert.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\JoystickControl.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\TrackedDevice.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZoneScale.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\Flashlight.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\Explosive.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\ScreenFader.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\ArrowGrabArea.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\PunctureCollider.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\DrawerSound.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ScaleBetweenPoints.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\JointHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Weapons\BulletInsert.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportDestination.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\LiquidWobble.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\Marker.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\JointBreaker.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\IgnoreColliders.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\JoystickControl.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableRingHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Utility\VRUtils.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\SteeringWheel.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\FPSText.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\GrappleShot.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandCollision.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserPointer.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\VelocityTracker.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\Damageable.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\UITrigger.cs" />
+    <Compile Include="Assets\Script\ExplosionBloques.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionFade.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableBezierLine.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\LiquidWobble.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandController.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\RotateTowards.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\LocomotionManager.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterYOffset.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\RemoteGrabber.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\CollisionSound.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabPoint.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerGravity.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\GrabberArea.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\Grabber.cs" />
+    <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoCube.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Weapons\MagazineSlide.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\DoorHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Weapons\WeaponSlide.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\VehicleController.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\Zipline.cs" />
+    <Compile Include="Assets\Script\ContadorPuntos.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\BoneMapping.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\Bow.cs" />
+    <Compile Include="Assets\BNG Framework\Integrations\Invector\ReceiveInvectorDamage.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZone.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableEvents.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\TimeController.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterConstraint.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\Grabbable.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\InputBridge.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\ReturnToSnapZone.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerJoint.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\Climbable.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandPhysics.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\BNGPlayerController.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\Marker.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlightMaterial.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\RingHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\HandJet.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHaptics.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\EditorHandle.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\UI\VRUISystem.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\AutoPoser.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\RagdollHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\HandModelSelector.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\VRIFGrabpointUpdater.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\AmmoDispenser.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Lever.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\RingHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Utility\FixNonUniformScale.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandController.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\BoneMapping.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\SteeringWheel.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\DestroyObjectWithDelay.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\RotateTowards.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\ControllerOffsetHelper.cs" />
+    <Compile Include="Assets\Script\PlataformasMoviles.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHighlight.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\FollowTransform.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Utility\DestroyIfPlayMode.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\IKDummy.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Weapons\Projectile.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\VREmulator.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\LocomotionManager.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\DamageCollider.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\UI\VRCanvas.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\Bullet.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabAction.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\Bow.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\Arrow.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterYOffset.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\LineToTransform.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\TrackedDevice.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\HandJet.cs" />
-    <Compile Include="Assets\BNG Framework\Integrations\Invector\ReceiveInvectorDamage.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHaptics.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\Flashlight.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZoneScale.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\RemoteGrabber.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\ControllerModelSelector.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\CollisionSound.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\ExtensionMethods.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\UI\UIPointer.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZone.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Waypoint.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\DetachableLimb.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerRotation.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabPoint.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\FPSText.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableUnityEvents.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\RotateWithHMD.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\RaycastWeapon.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserSword.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\Tooltip.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\InvalidTeleportArea.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Weapons\AmmoDisplay.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\Explosive.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbableEvents.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\EditorHandle.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\LookAtTransform.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\UI\VRUISystem.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerGravity.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\SkeletonVisualizer.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\ScaleMaterialHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\HingeHelper.cs" />
+    <Compile Include="Assets\Script\Musica.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterIK.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\GrabberArea.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ProjectileLauncher.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\AutoPoser.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoser.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\GrappleShot.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\TimeController.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\FollowRigidbody.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerTeleport.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\MoveToWaypoint.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\ConstrainLocalPosition.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPose.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\JointBreaker.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\IgnoreColliders.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\CustomCenterOfMass.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\SnapZoneRingHelper.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerTipCollider.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\FollowTransform.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\VREmulator.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\Arrow.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\ControllerModelSelector.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\UI\UIPointer.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandleGFXHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\DetachableLimb.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerRotation.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoseDefinition.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Slider.cs" />
-    <Compile Include="Assets\BNG Framework\Animation\HandPoseDefinitions.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\CharacterConstraint.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\Grabbable.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\PlayerScaler.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\InputBridge.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandCollision.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportPlayerOnEnter.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SnapZoneOffset.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerClimbing.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\ToggleActiveOnInputAction.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabPointTrigger.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandRepresentationHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\ScreenFader.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\ReturnToSnapZone.cs" />
-    <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\PlaySoundOnGrab.cs" />
-    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\FingerJoint.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\FollowRigidbody.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\RagdollHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\SmoothLocomotion.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\Grabber.cs" />
-    <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoCube.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\Button.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\LaserPointer.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerTeleport.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PointerEvents.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\MovingPlatform.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\VelocityTracker.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\Climbable.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Weapons\MagazineSlide.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\MoveToWaypoint.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\DoorHelper.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\HandPhysics.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\ArrowGrabArea.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\Damageable.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Components\PunctureCollider.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\HandModelSelector.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Weapons\WeaponSlide.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\GrabbablesInTrigger.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\PlayerMovingPlatformSupport.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\DrawerSound.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\BowArm.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Helpers\UITrigger.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Extras\VehicleController.cs" />
-    <Compile Include="Assets\BNG Framework\Scripts\Core\HeadCollisionFade.cs" />
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Script\ContadorPuntos.cs" />
-    <Compile Include="Assets\Script\PlataformasMoviles.cs" />
-    <Compile Include="Assets\Script\ExplosionBloques.cs" />
-    <Compile Include="Assets\Script\Musica.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Helpers\TeleportDestination.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableRingHelper.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Utility\FixNonUniformScale.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Weapons\Projectile.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\ExtensionMethods.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Components\RotateWithHMD.cs" />
+    <Compile Include="Assets\BNG Framework\HandPoser\Scripts\HandPoser.cs" />
+    <Compile Include="Assets\BNG Framework\Animation\HandPoseDefinitions.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\PlayerScaler.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Extras\BulletHole.cs" />
+    <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\SmoothLocomotion.cs" />
+    <Compile Include="Assets\BNG Framework\Scripts\Core\Button.cs" />
+    <Compile Include="Assets\Script\Tiempo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
@@ -818,8 +814,8 @@
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
@@ -827,8 +823,8 @@
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InputSystem">
-      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+    <Reference Include="Unity.PlasticSCM.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
