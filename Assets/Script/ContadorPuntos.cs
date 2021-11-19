@@ -12,37 +12,45 @@ namespace BNG
         [SerializeField] ParticleSystem[] particles;
         [SerializeField] Musica parlantes;
         [SerializeField] Text victoriaText;
+        [SerializeField] Text puntosText;
         [SerializeField] PlataformasMoviles plat;
         public int puntaje;
         public Tiempo t;
         public Grabbable g;
+        public Menus play;
 
 
         // Start is called before the first frame update
         void Start()
         {
-            puntaje = 0;
+            //puntaje = 0;
             //victoriaText.text = " ";
         }
 
         private void Update()
         {
-            //Debug.Log(puntaje);
-            /*if(puntaje == puntajeMaximo)
+            if(play.jugar)
             {
-                Victoria();
-            }*/
-            if (t.tiempo <= 0f)
-            {
-                plat.velocidad = 0f;
-                g.enabled = false;
-                Victoria();
+                if(t.tiempo>=59)
+                {
+                    puntaje = 0;
+                }
+                g.enabled = true;
+                DisplayPuntos(puntaje);
             }
             else
             {
-                plat.velocidad = plat.velocidadI;
-                g.enabled = true;
+                g.enabled = false;
+                DisplayPuntos(puntaje);
             }
+            if(t.tiempo<=0f)
+            {
+                for (int i = 0; i < particles.Length; i++)
+                {
+                    particles[i].Play();
+                }
+            }
+
 
 #if UNITY_EDITOR
             if (Input.GetButtonDown("Jump"))
@@ -72,6 +80,11 @@ namespace BNG
         {
             puntaje -= 10;
             t.tiempo -= 5f;
+        }
+        void DisplayPuntos(int puntosToDisplay)
+        {
+            //timeToDisplay += 1;
+            puntosText.text = "Puntos: " + puntosToDisplay;
         }
     }
 

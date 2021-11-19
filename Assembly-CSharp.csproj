@@ -63,6 +63,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Flashlight.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\Explosive.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\ScreenFader.cs" />
+    <Compile Include="Assets\Script\Tiempo.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\StaticBatch.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\ArrowGrabArea.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\PunctureCollider.cs" />
@@ -195,12 +196,13 @@
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SmoothLocomotion.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Button.cs" />
-    <Compile Include="Assets\Script\Tiempo.cs" />
+    <Compile Include="Assets\Script\Menus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
     <None Include="Assets\BNG Framework\Integrations\Curved UI\Instructions.txt" />
     <None Include="Assets\BNG Framework\Materials\ColumnGlowShaderLicense.txt" />
+    <None Include="Assets\Fonts\Font1\DharmaType.FFEULA.v.2018.03.01.1.txt" />
     <None Include="Assets\Simple Toon\Shaders\STOutline.shader" />
     <None Include="Assets\BNG Framework\Textures\particleTextures.txt" />
     <None Include="Assets\BNG Framework\Fonts\license.txt" />

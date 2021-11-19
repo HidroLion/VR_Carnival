@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637728699477159202
-    m_Hash: 2901879853
+      ticks: 637729099290386301
+    m_Hash: 1806104614
   m_LockFileStatus:
     m_FilePath: C:/Users/migue/Documents/GitHub/VR_Carnival/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637728699479493158
-    m_Hash: 3891004524
+      ticks: 637729099291142812
+    m_Hash: 856516950
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
