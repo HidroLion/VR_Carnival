@@ -5,18 +5,17 @@ using UnityEngine;
 public class Musica : MonoBehaviour
 {
     [SerializeField] AudioClip[] canciones;
-    AudioSource source;
+    [SerializeField] AudioSource[] sources;
 
     void Start()
     {
-        source = GetComponent<AudioSource>();
-        source.clip = canciones[0];
+        sources[0].clip = canciones[0];
+        sources[1].clip = canciones[1];
     }
 
     public void MusicaVictoria()
     {
-        source.Stop();
-        source.clip = canciones[1];
-        source.Play();
+        sources[0].Stop();
+        sources[1].Play();
     }
 }

@@ -11,21 +11,12 @@ namespace BNG
         [SerializeField] int puntajeMaximo;
         [SerializeField] ParticleSystem[] particles;
         [SerializeField] Musica parlantes;
-        [SerializeField] Text victoriaText;
         [SerializeField] Text puntosText;
         [SerializeField] PlataformasMoviles plat;
         public int puntaje;
         public Tiempo t;
         public Grabbable g;
         public Menus play;
-
-
-        // Start is called before the first frame update
-        void Start()
-        {
-            //puntaje = 0;
-            //victoriaText.text = " ";
-        }
 
         private void Update()
         {
@@ -68,8 +59,7 @@ namespace BNG
                 particles[i].Play();
             }
 
-            //parlantes.MusicaVictoria();
-            //victoriaText.text = "¡Has Ganado!";
+            parlantes.MusicaVictoria();
         }
 
         public void SumarPunto()
@@ -83,7 +73,6 @@ namespace BNG
         }
         void DisplayPuntos(int puntosToDisplay)
         {
-            //timeToDisplay += 1;
             puntosText.text = "Puntos: " + puntosToDisplay;
         }
     }
