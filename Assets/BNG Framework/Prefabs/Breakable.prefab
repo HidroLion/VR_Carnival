@@ -5071,11 +5071,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 5
-  r: 0
-  mat: {fileID: 0}
-  rojo: 0
-  time: 0
-  t: {fileID: 0}
   SpawnOnDeath: {fileID: 0}
   ActivateGameObjectsOnDeath:
   - {fileID: 1389075438926666779}
@@ -5084,7 +5079,6 @@ MonoBehaviour:
   DeactivateCollidersOnDeath:
   - {fileID: 5357969217081323519}
   DestroyOnDeath: 0
-  puntos: {fileID: 0}
   DropOnDeath: 1
   DestroyDelay: 10
   Respawn: 1
@@ -5253,7 +5247,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5bc582e561aa5bd4a9622ec6cb2d8fb7, type: 2}
+  - {fileID: 2100000, guid: 53dec95df1424f74b83466b9d02ae8ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

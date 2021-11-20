@@ -8,42 +8,49 @@ namespace BNG
 {
     public class ContadorPuntos : MonoBehaviour
     {
+        [SerializeField] int puntajeMaximo;
         [SerializeField] ParticleSystem[] particles;
         [SerializeField] Musica parlantes;
-        [SerializeField] PlataformasMoviles[] plat;
-
+        [SerializeField] Text victoriaText;
+        [SerializeField] Text puntosText;
+        [SerializeField] PlataformasMoviles plat;
         public int puntaje;
         public Tiempo t;
         public Grabbable g;
+        public Menus play;
 
 
         // Start is called before the first frame update
         void Start()
         {
-            puntaje = 0;
+            //puntaje = 0;
+            //victoriaText.text = " ";
         }
 
         private void Update()
         {
-            if (t.tiempo <= 0f)
+            if(play.jugar)
             {
-                for (int i = 0; i < plat.Length; i++)
+                if(t.tiempo>=59)
                 {
-                    plat[i].velocidad = 0f;
+                    puntaje = 0;
                 }
-
-                g.enabled = false;
-                Victoria();
+                g.enabled = true;
+                DisplayPuntos(puntaje);
             }
             else
             {
-                for (int i = 0; i < plat.Length; i++)
-                {
-                    plat[i].velocidad = plat[i].velocidadI;
-                }
-
-                g.enabled = true;
+                g.enabled = false;
+                DisplayPuntos(puntaje);
             }
+            if(t.tiempo<=0f)
+            {
+                for (int i = 0; i < particles.Length; i++)
+                {
+                    particles[i].Play();
+                }
+            }
+
 
 #if UNITY_EDITOR
             if (Input.GetButtonDown("Jump"))
@@ -61,7 +68,8 @@ namespace BNG
                 particles[i].Play();
             }
 
-            parlantes.MusicaVictoria();
+            //parlantes.MusicaVictoria();
+            //victoriaText.text = "¡Has Ganado!";
         }
 
         public void SumarPunto()
@@ -72,6 +80,11 @@ namespace BNG
         {
             puntaje -= 10;
             t.tiempo -= 5f;
+        }
+        void DisplayPuntos(int puntosToDisplay)
+        {
+            //timeToDisplay += 1;
+            puntosText.text = "Puntos: " + puntosToDisplay;
         }
     }
 
