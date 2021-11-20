@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637729337388487814
-    m_Hash: 3477813811
+      ticks: 637729647413846646
+    m_Hash: 3711084570
   m_LockFileStatus:
     m_FilePath: C:/Users/USER/Desktop/Proyectos Univeristarios/VR_Carnival/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637729337394505789
-    m_Hash: 2661914380
+      ticks: 637729647413860739
+    m_Hash: 1388824261
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
