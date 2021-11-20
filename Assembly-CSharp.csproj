@@ -128,6 +128,7 @@
     <Compile Include="Assets\BNG Framework\Scripts\Helpers\RingHelper.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Extras\HandJet.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Components\GrabbableHaptics.cs" />
+    <Compile Include="Assets\Script\Menus.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\EditorHandle.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\UI\VRUISystem.cs" />
     <Compile Include="Assets\BNG Framework\HandPoser\Scripts\AutoPoser.cs" />
@@ -196,7 +197,6 @@
     <Compile Include="Assets\BNG Framework\Scenes\XR Demo\DemoScript.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\SmoothLocomotion.cs" />
     <Compile Include="Assets\BNG Framework\Scripts\Core\Button.cs" />
-    <Compile Include="Assets\Script\Menus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\BNG Framework\Integrations\PUN\Readme.txt" />
