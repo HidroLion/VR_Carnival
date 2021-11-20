@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1366
     height: 695
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Hierarchy
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 27
+  controlID: 131
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +177,7 @@ MonoBehaviour:
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 17
+  controlID: 130
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -227,7 +227,7 @@ MonoBehaviour:
     y: 0
     width: 1366
     height: 695
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -369,22 +369,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Script
+    - Assets/SFX & Music
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Script
+  - Assets/SFX & Music
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\USER\Desktop\Proyectos Univeristarios\VR_Carnival
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00760000
-    m_LastClickedID: 30208
-    m_ExpandedIDs: 00000000fe75000000ca9a3b
+    scrollPos: {x: 0, y: 36}
+    m_SelectedIDs: 9c750000
+    m_LastClickedID: 30108
+    m_ExpandedIDs: 000000006a750000a075000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -412,7 +412,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000da750000
+    m_ExpandedIDs: 000000006a750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -443,18 +443,18 @@ MonoBehaviour:
     m_ExpandedInstanceIDs: c623000046a900008485000048a90000000000009c750000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Parlante
+      m_OriginalName: Parlante
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 30226
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 4}
     m_CreateAssetUtility:
@@ -500,7 +500,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 3
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -532,10 +532,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 48faffff
+      scrollPos: {x: 0, y: 222}
+      m_SelectedIDs: 72d1ffff
+      m_LastClickedID: -11918
+      m_ExpandedIDs: 2cd2ffff52d4ffffb0d4ffff46fbffff90430000dc430000fe430000464400005e440000c4440000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -595,9 +595,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -6.042016, y: 3.98953, z: -1.4300995}
+    m_Target: {x: -1.3332055, y: 0.92038226, z: 1.705234}
     speed: 2
-    m_Value: {x: -6.042016, y: 3.98953, z: -1.4300995}
+    m_Value: {x: -1.3332055, y: 0.92038226, z: 1.705234}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -644,17 +644,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.046182513, y: 0.0077738394, z: -0.000360015, w: 0.998907}
+    m_Target: {x: 0.078470305, y: -0.15340029, z: 0.012222047, w: 0.98497206}
     speed: 2
-    m_Value: {x: 0.046181723, y: 0.009272151, z: -0.0004292865, w: 0.99889}
+    m_Value: {x: 0.07846997, y: -0.15339963, z: 0.012221995, w: 0.9849678}
   m_Size:
-    m_Target: 7.1726036
+    m_Target: 5.9384117
     speed: 2
-    m_Value: 6.8637357
+    m_Value: 5.9384117
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -784,10 +784,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1260
-    y: 73.6
-    width: 275
-    height: 710
+    x: 943
+    y: 73
+    width: 422
+    height: 624
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &20
 MonoBehaviour:

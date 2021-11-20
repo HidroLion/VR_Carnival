@@ -8,11 +8,10 @@ namespace BNG
 {
     public class ContadorPuntos : MonoBehaviour
     {
-        [SerializeField] int puntajeMaximo;
         [SerializeField] ParticleSystem[] particles;
         [SerializeField] Musica parlantes;
-        [SerializeField] Text victoriaText;
-        [SerializeField] PlataformasMoviles plat;
+        [SerializeField] PlataformasMoviles[] plat;
+
         public int puntaje;
         public Tiempo t;
         public Grabbable g;
@@ -22,25 +21,27 @@ namespace BNG
         void Start()
         {
             puntaje = 0;
-            //victoriaText.text = " ";
         }
 
         private void Update()
         {
-            //Debug.Log(puntaje);
-            /*if(puntaje == puntajeMaximo)
-            {
-                Victoria();
-            }*/
             if (t.tiempo <= 0f)
             {
-                plat.velocidad = 0f;
+                for (int i = 0; i < plat.Length; i++)
+                {
+                    plat[i].velocidad = 0f;
+                }
+
                 g.enabled = false;
                 Victoria();
             }
             else
             {
-                plat.velocidad = plat.velocidadI;
+                for (int i = 0; i < plat.Length; i++)
+                {
+                    plat[i].velocidad = plat[i].velocidadI;
+                }
+
                 g.enabled = true;
             }
 
@@ -60,8 +61,7 @@ namespace BNG
                 particles[i].Play();
             }
 
-            //parlantes.MusicaVictoria();
-            //victoriaText.text = "¡Has Ganado!";
+            parlantes.MusicaVictoria();
         }
 
         public void SumarPunto()
