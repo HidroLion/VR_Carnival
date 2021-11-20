@@ -42,7 +42,7 @@ public class PlataformasMoviles : MonoBehaviour
             if (transform.position == positions[1].position && play.active)
             {
                 play.juega.SetActive(true);
-                play.p.SetActive(true);
+                //play.p.SetActive(true);
                 velocidad = 0f;
                 play.active = false;
             }

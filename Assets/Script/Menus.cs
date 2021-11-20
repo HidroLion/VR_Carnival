@@ -7,7 +7,7 @@ public class Menus : MonoBehaviour
 {
     public bool jugar;
     public bool active;
-    public GameObject p;
+    //spublic GameObject p;
     public GameObject controles;
     public GameObject juega;
     public Tiempo t;
@@ -26,7 +26,7 @@ public class Menus : MonoBehaviour
     {
         t.time = true;
         juega.SetActive(false);
-        p.SetActive(false);
+        //p.SetActive(false);
         Debug.Log("Play");
         jugar = true;
     }
@@ -34,14 +34,14 @@ public class Menus : MonoBehaviour
     {
         controles.SetActive(true);
         juega.SetActive(false);
-        p.SetActive(false);
+        //p.SetActive(false);
         Debug.Log("Instucciones");
     }
     public void Volver()
     {
         controles.SetActive(false);
         juega.SetActive(true);
-        p.SetActive(true);
+        //p.SetActive(true);
         Debug.Log("Vuelve");
     }
     public void Salir()
